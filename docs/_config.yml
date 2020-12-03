@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Travis Shands 
+title: Travis Shands
 email: shandstp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A simple portfollio site to showcase some of the things that I've done, 
@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shandstp
-github_username:  shandstp
+github_username: shandstp
 
 # Build settings
 theme: jekyll-theme-slate
