@@ -8,8 +8,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
+  <!-- {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -27,8 +26,27 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+  {%- endif -%} -->
 </div>
+<body>
+  <h2>Projects</h2>
+  <ul>
+    <li><h2><a href="https://github.com/shandstp/CS492/tree/master/wastegram">Wastegram</a></h2>
+      <p>My final project for my mobile application development class, CS492. Written in Flutter and Dart, 
+      this application uses Google's Firebase to provide seemless syncronization accross multiple devices</p>
+    </li>
+    <li><h2><a href="https://github.com/VictorCam/CS461_Project">BeavDMS</a></h2>
+      <p>My senior capstone project, a web based document management system featuring an email API that
+        faciliates storage, retrieval, and query operations through the exchange of emails.</p>
+    </li>
+    <li><h2><a href="https://github.com/shandstp/DND">DND</a></h2>
+      <p>My final project for my databases class. A database driven web application that faciliates the management
+        of players, their characters, items, games, and dungeon masters for Dungeons and Dragons games.</p>
+    </li>
+    <li><h2><a href="https://github.com/shandstp/rikai">Rikai</a></h2>
+      <p>My own personal project. A mobile application that is intended to provide students of Japanese with a powerful
+        and flexible tool for searching Kanji, words, ideomatic expressions, and even names of people and places, in addition
+        to highly adaptable and effective study tools.</p>
+    </li>
+  </ul>
+</body>
